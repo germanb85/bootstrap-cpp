@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,600;0,700;1,600&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,900;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -59,6 +57,7 @@ nav ul li{
     display: inline-block;
     line-height: 120px;
     margin: 0 5px;
+
 }
 
 nav ul li a{
@@ -86,6 +85,7 @@ li a:hover{
 
 #check{
     display: none;
+    
 }
 
 /*" INICIO "*/
@@ -348,7 +348,7 @@ h2{
 .ranking .description h4{
   color: rgb(15, 3, 184);
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-size: 28px;
 }
 
 .ranking .description p{
