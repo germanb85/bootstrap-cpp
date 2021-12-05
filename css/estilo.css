@@ -29,19 +29,16 @@ body{
 /*" MENU "*/
 
 .nav-menu{
-    
     position: sticky;
     top: 0;
-    z-index: 2;
-    
+    z-index: 1;
 }
 
 nav{
     background: rgb(33, 54, 111);
     height: 120px;
     width: 100%;
-    bottom: 0;
-    
+    bottom: 0;  
 }
 
 .enlace{
