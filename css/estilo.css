@@ -240,27 +240,7 @@ h2{
 
 .card-text{
   text-align: center;
-}
-
-@media (max-width: 1300px){
-  .contenedor-torneo{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr  ;
-  }
-}
-
-@media (max-width: 1000px){
-  .contenedor-torneo{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 800px){
-  .contenedor-torneo{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-  }
+  font-family: 'Roboto', sans-serif;  
 }
 
 /*" JUGADORES "*/
@@ -313,7 +293,6 @@ h2{
   bottom: -30%;
   left: 50%;
   transform: translate(-50%);
-
 }
 
 .ranking .head .foto-jugador img{
