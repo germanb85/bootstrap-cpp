@@ -230,47 +230,37 @@ h2{
 
 .contenedor-torneo{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-rows: 420px;
   padding: 20px;
-  grid-gap: 20px;
+  grid-gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.info-torneo{
-  position: relative;
-}
-
-.info-imagen-torneo{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.titulo-torneo-info{
-  font-size: 20px;
-  position: absolute;
-  background-color: rgb(33, 54, 111);
-  bottom: 0;
-  color: white;
-  width: 100%;
-  margin: 0;
-  padding: 10px;
+.card-text{
   text-align: center;
-  bottom: 200%;
-  font-family: 'Roboto', sans-serif;
 }
 
-.titulo-torneo{
-  position: absolute;
-  bottom: 0;
-  color: white;
-  width: 100%;
-  margin: 0;
-  background: linear-gradient(rgba(48, 75, 150, 0.1),rgba(0,0,0,1));
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+@media (max-width: 1300px){
+  .contenedor-torneo{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr  ;
+  }
+}
+
+@media (max-width: 1000px){
+  .contenedor-torneo{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px){
+  .contenedor-torneo{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  }
 }
 
 /*" JUGADORES "*/
@@ -618,27 +608,6 @@ h6{
 
 @media (max-width: 910px){
   .contenedor-fotos{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-  }
-}
-
-@media (max-width: 1300px){
-  .contenedor-torneo{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr  ;
-  }
-}
-
-@media (max-width: 1000px){
-  .contenedor-torneo{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 800px){
-  .contenedor-torneo{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
   }
