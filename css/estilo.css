@@ -337,7 +337,8 @@ h2{
 /*" FOTOS "*/
 
 .carusel{
-  margin: 0vh 50vh;
+  width: 70%;
+  margin: 0 auto;
 }
 
 /*" CONTACTO "*/
